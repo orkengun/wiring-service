@@ -1,0 +1,27 @@
+.lines {
+  width: 42px;
+  position: relative;
+  height: 17px;
+
+  @media screen and (max-width: 600px) {
+    width: 34px;
+  }
+
+  span {
+    background: #00c7f7;
+    border-radius: 5px;
+    height: 5px;
+    width: 100%;
+    display: block;
+    margin: 0;
+
+    &:first-child {
+      margin-bottom: 7px;
+      width: 26px;
+
+      @media screen and (max-width: 600px) {
+        width: 21px;
+      }
+    }
+  }
+}

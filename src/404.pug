@@ -1,0 +1,27 @@
+doctype
+html(lang='en')
+  include html/head
+  body
+    include html/header
+    main.thanks
+      section.thanks-banner.error-404
+        .container 
+          .error-404-fl 
+            .text 
+              include html/lines 
+              h2.section-title 
+                span у
+                |пс
+              h4 Похоже, вы ошиблись ссылкой!  
+              a.btn.btn-blue(href="/") 
+                img(src="images/arrow.svg", alt="arrow")
+                span.clip 
+                |Вернуться назад
+            .text-404 
+              span 4
+              |04 
+
+    include html/footer
+
+    
+

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Электромантаж сервис</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?_v=20220527134035">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css?_v=20220527134035">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20220527134035">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220527134035">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220527134035">
+  </head>
+  <body>
+    <header class="header"> 
+      <div class="container">
+        <div class="header-fl"> <a class="logo" href="/"> <img src="images/logo.svg" alt="logo"></a>
+          <ul class="menu">
+            <li><a href="#services">Услуги </a></li>
+            <li><a href="#about">О компании</a></li><!--li<a href="#serts">Отзывы--></a>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+          <div class="header-contacts"><a href="mailto:info@e-montazh.kz" target="_blank"><span>info</span>@e-montazh.kz</a><a href="tel:+7 (771) 888 8992"><span>+7 (771) </span>888 8992</a></div>
+          <div class="toggle-btn"> <span class="one"> </span><span class="two"> </span><span class="three">    </span></div>
+          <div class="mob-menu"> 
+            <ul class="menu">
+              <li><a href="#services">Услуги </a></li>
+              <li><a href="#about">О компании</a></li>
+              <li><a href="#serts">Отзывы</a></li>
+              <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <div class="header-contacts"><a href="mailto:info@e-montazh.kz" target="_blank"><span>info</span>@e-montazh.kz</a><a href="tel:+7 (771) 888 8992"><span>+7 (771) </span>888 8992</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page"><a class="whatsapp" href="https://api.whatsapp.com/send?phone=77718888992&amp;text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5,%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E"><img src="images/whatsapp-green.svg" alt="icon"></a><a class="phone-blue" href="tel:+7 (771) 888 8992"> <img src="images/phone-blue.svg" alt="phone"></a>
+      <section class="banner"> 
+        <div class="container">
+          <div class="banner-info"> 
+            <div class="lines">  <span> </span><span> </span></div>
+            <h1 class="upper">Обслуживание электрических систем от <span>1 000 до 35 000 кВА </span>по всему Казахстану</h1>
+            <h4>Качество, проверенное годами</h4><a class="btn btn-blue" href="#" data-toggle="modal" data-target="#myModal">Оставить заявку<img src="images/arrow.svg" alt="arrow"><span class="clip"></span></a>
+          </div>
+        </div>
+      </section>
+      <section class="services" data-aos="fade-up" id="services"> 
+        <div class="container">
+          <div class="lines">  <span> </span><span> </span></div>
+          <h2 class="section-title"> <span>К</span>акие услуги мы предоставляем</h2>
+          <div class="services-fl">
+            <div class="images"> <picture><source srcset="images/serv1.webp" type="image/webp"><img class="active" src="images/serv1.jpg" alt="img" data-img="serv1"></picture><picture><source srcset="images/serv2.webp" type="image/webp"><img src="images/serv2.jpg" alt="img" data-img="serv2"></picture><picture><source srcset="images/serv3.webp" type="image/webp"><img src="images/serv3.jpg" alt="img" data-img="serv3"></picture><picture><source srcset="images/serv4.webp" type="image/webp"><img src="images/serv4.jpg" alt="img" data-img="serv4"></picture><picture><source srcset="images/serv5.webp" type="image/webp"><img src="images/serv5.jpg" alt="img" data-img="serv5"></picture></div><div class="panel-group" id="accordion">
+<div class="panel panel-default active">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" data-value="serv1">Консультации по подключению к системам энергоснабжения</a><img src="images/down-arrow.svg" alt="arrow"></h4>
+</div>
+<div id="collapse1" class="panel-collapse collapse in">
+<div class="panel-body"> <picture><source srcset="images/serv1.webp" type="image/webp"><img src="images/serv1.jpg" alt="img"></picture>
+            <ul> 
+              <li>оказываем помощь в получении технических условий в АЖК;</li>
+              <li>рассчитываем стоимость работ и консультируем на всех этапах;</li>
+              <li> помогаем в подборе нужного оборудования.</li>
+            </ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapse2" data-value="serv2">Проектирование систем энергоснабжения</a><img src="images/down-arrow.svg" alt="arrow"></h4>
+</div>
+<div id="collapse2" class="panel-collapse collapse">
+<div class="panel-body"><picture><source srcset="images/serv2.webp" type="image/webp"><img src="images/serv2.jpg" alt="img"></picture>
+            <p>Проектируем системы в соответствие с требованиями государственных организаций и вашими пожеланиями. У нас работают инженеры со стажем работы от 7 лет. </p></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapse3" data-value="serv3">Подбор оборудования</a><img src="images/down-arrow.svg" alt="arrow"></h4>
+</div>
+<div id="collapse3" class="panel-collapse collapse">
+<div class="panel-body"><picture><source srcset="images/serv3.webp" type="image/webp"><img src="images/serv3.jpg" alt="img"></picture>
+            <p>Помогаем с поставками всего необходимого оборудования напрямую от производителя. Смотреть список</p></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapse4" data-value="serv4">Монтаж и наладка</a><img src="images/down-arrow.svg" alt="arrow"></h4>
+</div>
+<div id="collapse4" class="panel-collapse collapse">
+<div class="panel-body"><picture><source srcset="images/serv4.webp" type="image/webp"><img src="images/serv4.jpg" alt="img"></picture>
+            <ul> 
+              <li>монтаж трансформаторных подстанций;</li>
+              <li>пуско-наладочные работы;</li>
+              <li>прокладка и реконструкция кабелей;</li>
+              <li>сборка и установка КЯ, ГРЩ, ВРУ, ЩО;</li>
+              <li>прочее.</li>
+            </ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapse5" data-value="serv5">Проведение лабораторных испытаний</a><img src="images/down-arrow.svg" alt="arrow"></h4>
+</div>
+<div id="collapse5" class="panel-collapse collapse">
+<div class="panel-body"><picture><source srcset="images/serv5.webp" type="image/webp"><img src="images/serv5.jpg" alt="img"></picture>
+            <ul> 
+              <li>Профилактические испытания электроустановок;</li>
+              <li>Получение акта экспертного обследования и заключения электроустановок;</li>
+              <li>Электротехническая лаборатория;</li>
+              <li>Испытания кабельных и воздушных линий 10 кВ.</li>
+            </ul></div>
+</div>
+</div>
+</div>   
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about"><picture><source srcset="images/about-animate.webp" type="image/webp"><img class="anime" src="images/about-animate.png" alt="img" data-aos="fade-left"></picture><picture><source srcset="images/about-triangle.webp" type="image/webp"><img class="triangle" src="images/about-triangle.png" alt="img"></picture>
+        <div class="container">
+          <div class="about-fl">
+            <div class="info" data-aos="fade-right">    
+              <div class="lines">  <span> </span><span> </span></div>
+              <h2 class="section-title"> <span>О </span>компании “Электромонтаж сервис”</h2>
+              <div class="image-mob"><picture><source srcset="images/about2.webp" type="image/webp"><img src="images/about2.jpg" alt="img"></picture><picture><source srcset="images/about1.webp" type="image/webp"><img src="images/about1.jpg" alt="img"></picture></div>
+              <div class="text"> 
+                <p>Наша компания предоставляет полный комплекс услуг по построению и автоматизации технологических процессов и созданию АСУ ТП. </p>
+                <p>Мы с радостью готовы взяться за ведение Вашего объекта в комплексе: от помощи в получении технических условий до полной реализации проекта до сдачи. </p>
+                <p>К вашим услугам качественный сервис на всех этапах работы, профессионализм и стремление к идеальному результату со стороны каждого нашего специалиста.</p>
+                <p>Имеем все необходимые разрешительные документы для работ, с которыми Вы можете ознакомиться в данном разделе.</p>
+              </div>
+              <div class="btns"><a class="btn btn-blue" href="#" data-toggle="modal" data-target="#myModal">связаться с нами<img src="images/arrow.svg" alt="arrow"><span class="clip"></span></a><!--a(href="#serts").btn.btn-underline смотреть сертификаты-->     </div>
+            </div>
+            <div class="image" data-aos="fade-left"><picture><source srcset="images/about1.webp" type="image/webp"><img src="images/about1.jpg" alt="img"></picture><picture><source srcset="images/about2.webp" type="image/webp"><img src="images/about2.jpg" alt="img"></picture></div>
+          </div>
+        </div>
+      </section>
+      <section class="why">
+        <div class="container">
+          <div class="why-block" data-aos="fade-up"> 
+            <div class="lines">  <span> </span><span> </span></div>
+            <h2 class="section-title"> <span>П</span>очему клиенты выбирают нас</h2>
+            <div class="why-block-fl">
+              <div class="item"> <img src="images/item1.svg" alt="img">
+                <div class="item-info"> 
+                  <h4>СОБЛЮДЕНИЕ СРОКОВ  </h4>
+                  <p>Работаем над проектами под ключ, в наших интересах соблюдения сроков на каждом этапе. Для этой цели мы смогли оптимизировать рабочие процессы с сохранением качества и безопасности работ.</p>
+                </div>
+              </div>
+              <div class="item"> <img src="images/item2.svg" alt="img">
+                <div class="item-info"> 
+                  <h4>Гарантия качества  </h4>
+                  <p>Берем ответственность за результаты наших работ и гарантируем качество на долгие годы. В случае необходимости, экстренно выезжаем на объект и помогаем в решение поставленных задач. </p>
+                </div>
+              </div>
+              <div class="item"> <img src="images/item3.svg" alt="img">
+                <div class="item-info"> 
+                  <h4>опыт и профессионализм  </h4>
+                  <p>Уже более 10 лет наша команда занимается услугами в сфере электроэнергетики и достигла высокого уровня профессионализма, а также заключила договорные отношения с лучшими поставщиками.</p>
+                </div>
+              </div>
+              <div class="item"> <img src="images/item4.svg" alt="img">
+                <div class="item-info"> 
+                  <h4>Забота о каждом клиенте </h4>
+                  <p>Работаем как с физическими лицами, так и с производственными, строительными компаниями, заводами и АЖК. К каждому проекту мы подходим основательно и находим оптимальные решения.            </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works"><picture><source srcset="images/works.webp" type="image/webp"><img class="works-img" src="images/works.png" alt="img" data-aos="fade-right"></picture>
+        <div class="container"> 
+          <div class="works-fl"> 
+            <div class="title" data-aos="fade-right"> 
+              <div class="lines">  <span> </span><span> </span></div>
+              <h2 class="section-title"> <span>П</span>римеры работ</h2>
+            </div><div class="panel-group" id="accordion2" data-aos="fade-left">
+<div class="panel panel-default active">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion2" href="#col1" data-value="serv1">ТОО “Электрокомплект”</a><img src="images/down-arrow.svg" alt="arrow"></h4>
+</div>
+<div id="col1" class="panel-collapse collapse in">
+<div class="panel-body"> 
+            <ul> 
+              <li>оказываем помощь в получении технических условий в АЖК;</li>
+              <li>рассчитываем стоимость работ и консультируем на всех этапах;</li>
+              <li> помогаем в подборе нужного оборудования.</li>
+            </ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" class="collapsed" data-parent="#accordion2" href="#col2" data-value="serv2">ТОО “Электрокомплект”</a><img src="images/down-arrow.svg" alt="arrow"></h4>
+</div>
+<div id="col2" class="panel-collapse collapse">
+<div class="panel-body">Проектируем системы в соответствие с требованиями государственных организаций и вашими пожеланиями. У нас работают инженеры со стажем работы от 7 лет. </div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" class="collapsed" data-parent="#accordion2" href="#col3" data-value="serv3">ТОО “Электрокомплект”</a><img src="images/down-arrow.svg" alt="arrow"></h4>
+</div>
+<div id="col3" class="panel-collapse collapse">
+<div class="panel-body">Помогаем с поставками всего необходимого оборудования напрямую от производителя. Смотреть список</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" class="collapsed" data-parent="#accordion2" href="#col4" data-value="serv4">ТОО “Электрокомплект”</a><img src="images/down-arrow.svg" alt="arrow"></h4>
+</div>
+<div id="col4" class="panel-collapse collapse">
+<div class="panel-body">
+            <ul> 
+              <li>монтаж трансформаторных подстанций;</li>
+              <li>пуско-наладочные работы;</li>
+              <li>прокладка и реконструкция кабелей;</li>
+              <li>сборка и установка КЯ, ГРЩ, ВРУ, ЩО;</li>
+              <li>прочее.</li>
+            </ul></div>
+</div>
+</div>
+</div>     
+          </div>
+        </div>
+      </section>
+      <section class="help" data-aos="fade-up"> 
+        <div class="container">
+          <div class="lines">  <span> </span><span> </span></div>
+          <h2 class="section-title"> <span>П</span>омогаем с подбором  <br>и поставками оборудования</h2>
+          <h4>Мы являемся прямым партнером производителей оборудования, благодаря чему Вы можете рассчитывать на качественное оборудование без лишних наценок.  </h4><div class="swiper mySwiper products-swiper">
+<div div class="swiper-button-next swiper-arrow"><img src="images/next-arrow.svg" alt="arrow"></div>
+<div class="swiper-button-prev swiper-arrow"><img src="images/prev-arrow.svg" alt="arrow"></div>
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+          <div class="image"> <picture><source srcset="images/prod1.webp" type="image/webp"><img src="images/prod1.png" alt="prod"></picture></div><a class="link" href="#" data-toggle="modal" data-target="#myModal">
+            <h4>Распределительные <br>панели</h4><svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 25L12 13L2 1" stroke="#343434" stroke-opacity="0.91" stroke-width="3"/>
+</svg></a></div>
+<div class="swiper-slide">
+          <div class="image"><picture><source srcset="images/prod2.webp" type="image/webp"><img src="images/prod2.png" alt="prod"></picture></div><a class="link" href="#" data-toggle="modal" data-target="#myModal">
+            <h4>Низковольтная аппаратура</h4><svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 25L12 13L2 1" stroke="#343434" stroke-opacity="0.91" stroke-width="3"/>
+</svg></a></div>
+<div class="swiper-slide">
+          <div class="image"> <picture><source srcset="images/prod3.webp" type="image/webp"><img src="images/prod3.png" alt="prod"></picture></div><a class="link" href="#" data-toggle="modal" data-target="#myModal">
+            <h4>Металлоконструкции<br>ЛЭП</h4><svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 25L12 13L2 1" stroke="#343434" stroke-opacity="0.91" stroke-width="3"/>
+</svg></a></div>
+<div class="swiper-slide">
+          <div class="image"> <picture><source srcset="images/prod4.webp" type="image/webp"><img src="images/prod4.png" alt="prod"></picture></div><a class="link" href="#" data-toggle="modal" data-target="#myModal">
+            <h4>Камеры КСО, КРУ<br><br></h4><svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 25L12 13L2 1" stroke="#343434" stroke-opacity="0.91" stroke-width="3"/>
+</svg></a></div>
+<div class="swiper-slide">
+          <div class="image"> <picture><source srcset="images/prod5.webp" type="image/webp"><img src="images/prod5.png" alt="prod"></picture></div><a class="link" href="#" data-toggle="modal" data-target="#myModal">
+            <h4>высоковольтная <br>аппаратура</h4><svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 25L12 13L2 1" stroke="#343434" stroke-opacity="0.91" stroke-width="3"/>
+</svg></a></div>
+<div class="swiper-slide">
+          <div class="image"> <picture><source srcset="images/prod6.webp" type="image/webp"><img src="images/prod6.png" alt="prod"></picture></div><a class="link" href="#" data-toggle="modal" data-target="#myModal">
+            <h4>Силовые <br>трансформаторы</h4><svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 25L12 13L2 1" stroke="#343434" stroke-opacity="0.91" stroke-width="3"/>
+</svg></a></div>
+<div class="swiper-slide">
+          <div class="image"> <picture><source srcset="images/prod7.webp" type="image/webp"><img src="images/prod7.png" alt="prod"></picture></div><a class="link" href="#" data-toggle="modal" data-target="#myModal">
+            <h4>Трансформаторные  <br>подстанции</h4><svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 25L12 13L2 1" stroke="#343434" stroke-opacity="0.91" stroke-width="3"/>
+</svg></a></div>
+<div class="swiper-slide">
+          <div class="image"> <picture><source srcset="images/prod8.webp" type="image/webp"><img src="images/prod8.png" alt="prod"></picture></div><a class="link" href="#" data-toggle="modal" data-target="#myModal">
+            <h4>все виды   <br>Кабелей</h4><svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 25L12 13L2 1" stroke="#343434" stroke-opacity="0.91" stroke-width="3"/>
+</svg></a></div>
+</div>
+</div>
+          <div class="partners"> 
+            <div class="title" data-aos="fade-right"> 
+              <div class="lines">  <span> </span><span> </span></div>
+              <h2 class="section-title"> <span>с</span>отрудничаем <br>с компаниями: </h2>
+            </div>
+            <div class="partners-bl" data-aos="fade-left"> 
+              <div class="item">  <picture><source srcset="images/partn1.webp" type="image/webp"><img src="images/partn1.png" alt="img"></picture></div>
+              <div class="item">  <picture><source srcset="images/partn2.webp" type="image/webp"><img src="images/partn2.png" alt="img"></picture></div>
+              <div class="item">  <picture><source srcset="images/partn3.webp" type="image/webp"><img src="images/partn3.png" alt="img"></picture></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="letters" data-aos="fade-up" id="serts"> 
+        <div class="container"> 
+          <div class="lines">  <span> </span><span> </span></div>
+          <h2 class="section-title"> <span>Б</span>лагодарственные   <br>письма клиентов</h2><div class="swiper serts-slider">
+<div div class="swiper-button-next swiper-arrow"><img src="images/next-arrow.svg" alt="arrow"></div>
+<div class="swiper-button-prev swiper-arrow"><img src="images/prev-arrow.svg" alt="arrow"></div>
+<div class="swiper-wrapper">
+<div class="swiper-slide"><picture><source srcset="images/sert.webp" type="image/webp"><img src="images/sert.jpg" alt="sert"></picture></div>
+<div class="swiper-slide"><picture><source srcset="images/sert.webp" type="image/webp"><img src="images/sert.jpg" alt="sert"></picture></div>
+<div class="swiper-slide"><picture><source srcset="images/sert.webp" type="image/webp"><img src="images/sert.jpg" alt="sert"></picture></div>
+<div class="swiper-slide"><picture><source srcset="images/sert.webp" type="image/webp"><img src="images/sert.jpg" alt="sert"></picture></div>
+</div>
+</div>  
+        </div>
+      </section>
+      <section class="contacts" data-aos="fade-up" id="contacts"> 
+        <div class="container"> 
+          <div class="lines">  <span> </span><span> </span></div>
+          <h2 class="section-title"> <span>К</span>онтакты для связи</h2>
+          <div class="contacts-fl"> 
+            <div class="info">
+               <div id="map" style="width:100%; height:100%"></div>
+              <div class="info-fl"> 
+                <div class="item"> <img src="images/adress.svg" alt="img">
+                  <p> <span>ул. Жастар 21а</span>, с. Кыргауылды, Карасайский район, Алматинская область, 040924</p>
+                </div>
+                <div class="item"> <img src="images/phone.svg" alt="img"><a href="tel:+7 (771) 888 8992"> <span>+7 (771) </span>888 8992</a></div>
+                <div class="item"> <img src="images/email.svg" alt="img"><a href="mailto::info@e-montazh.kz"> <span>info</span>@e-montazh.kz    </a></div>
+              </div>
+            </div><form class="contacts__form telegram-form" id="form1">
+            <h3 class="upper">У вас остались вопросы? </h3>
+            <h4>Задайте интересующий вопрос, заполнив форму!</h4><div class="form-fl">
+<div class="form-group">
+<input type="text" name="name" placeholder="Имя*" required />
+</div>
+<div class="form-group">
+<input id="phone" class="phone" type="text" inputmode="numeric" name="phone" placeholder="Номер телефона*" required />
+</div>
+</div>
+<div class="form-group">
+<textarea name="question" id="textarea"></textarea>
+</div>
+<div class="form-fl">
+            <button class="btn btn-blue">отправить<img src="images/arrow.svg" alt="arrow"><span class="clip"></span></button></div>
+</form>  
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"> 
+      <div class="container"> 
+        <div class="footer-fl">
+          <div class="item"> <a class="link" href="#" data-toggle="modal" data-target="#myModal-3">Политика конфиденциальности</a>
+            <div class="socials"> <a href="#" target="_blank"><img src="images/telega.svg" alt="svg"></a><a href="https://api.whatsapp.com/send?phone=77718888992&amp;text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5,%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank"><img src="images/whats.svg" alt="svg"></a></div>
+          </div>
+          <div class="item"> <a class="logo" href="/"><img src="images/logo.svg" alt="logo"></a>
+            <p>ТОО “Электромонтаж сервис”.<br>Все права защищены 2022     </p>
+          </div>
+          <div class="item"> <a class="btn btn-blue" href="#" data-toggle="modal" data-target="#myModal">связаться с нами<img src="images/arrow.svg" alt="arrow"><span class="clip"></span></a><a class="link" href="#" target="_blank">by Tip-Top Agency           </a></div>
+        </div>
+      </div>
+    </footer><div class="modal fade" id="myModal-3" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<button type="button" class="close" data-dismiss="modal"><img src="images/x.svg" alt="x"></button>
+    <div class="lines">  <span> </span><span> </span></div><h3 class="upper section-title"><span>П</span>олитика конфиденциальности</h3>
+<p>Соблюдение Вашей конфиденциальности важно для нашей компании. Поэтому мы разработали Политику Конфиденциальности, которая  описывает, как используется и хранится Ваша информация. Пожалуйста, ознакомьтесь и сообщите нам, если у Вас возникнут какие-либо вопросы.
+</p>
+<p><span>Сбор и использование персональной информации</span><br>Под персональной информацией понимаются данные, которые могут быть использованы для идентификации определенного лица либо связи с ним. От Вас может быть запрошено предоставление персональной информации в любой момент, когда Вы связываетесь с нами.
+</p>
+<p><span>Какую персональную информацию мы собираем</span><br>Когда Вы  оставляете заявку на сайте, мы можем собирать различную информацию,  включая Ваше имя, номер телефона, адрес электронной почты и т.д.
+</p>
+<p> <span>Как мы используем Вашу персональную информацию
+</span><br>Персональная информация позволяет нам сообщать об уникальных предложениях, акциях и других мероприятиях и ближайших событиях. Время от времени мы можем использовать Вашу персональную информацию для отправки важных уведомлений и сообщений. Мы также можем  использовать персональную информацию для внутренних целей: проведения аудита, анализа данных и различных исследований в целях улучшения услуг. Если Вы принимаете участие в розыгрыше призов или конкурсе, мы можем использовать информацию для управления такими программами.
+</p>
+<p><span>Раскрытие информации третьим лицам</span><br>Мы не раскрываем полученную от Вас информацию третьим лицам.
+</p>
+<p><span>Исключения</span><br>В соответствии с законом, судебным порядком, в судебном разбирательстве и/или на основании публичных запросов или запросов от государственных органов на территории РК. Мы также можем раскрывать информацию о Вас, если мы определим, что такое раскрытие необходимо или уместно в целях безопасности, поддержания правопорядка или иных общественно важных случаях. В случае реорганизации, слияния или продажи мы можем передать собираемую нами лицу – правопреемнику.
+</p>
+<p><span>Защита персональной информации</span><br>Мы предпринимаем меры предосторожности, включая административные, технические и физические для защиты Вашей персональной информации от утраты, кражи  и недобросовестного использования, а также от несанкционированного доступа, раскрытия, изменения и уничтожения.
+</p>
+<p><span>Соблюдение Вашей конфиденциальности на уровне компании</span><br>Чтобы убедиться, что Ваша персональная информация находится в  безопасности, мы доводим нормы соблюдения конфиденциальности и безопасности до наших сотрудников и строго следим за исполнением мер соблюдения конфиденциальности.
+</p>
+</div>
+</div>
+</div>
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content"> 
+          <button class="close" button data-dismiss="modal"> <img src="images/x.svg" alt="x"></button>
+          <div class="lines">  <span> </span><span> </span></div><h3 class="upper section-title"><span>О</span>ставьте заявку</h3>  
+          <h4 class="text-center">Мы вам перезвоним в течение<br>20 минут!</h4><form  class="contacts__form telegram-form" id="form2">
+<div class="form-group">
+<input type="text" name="name" placeholder="Имя*" required />
+</div>
+<div class="form-group">
+<input id="phone2" class="phone" type="text" inputmode="numeric" name="phone" placeholder="Номер телефона*" required />
+</div>
+          <div class="form-group"> 
+            <label id="allow">
+               <input type="checkbox" id="allow" name="Согласие" checked required /><span>даю согласие на обработку данных</span><span class="checkmark"></span></label>
+          </div>
+          <button class="btn btn-blue">Оставить заявку<img src="images/arrow.svg" alt="arrow"><span class="clip"></span></button></form>    
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?_v=20220527134035"> </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20220527134035"> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js?_v=20220527134035"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?_v=20220527134035" defer> </script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220527134035"> </script>
+        <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full&_v=20220527134035"> </script>
+        <script src="js/app.min.js?_v=20220527134035"></script>
+      </div>
+    </div>
+  </body>
+</html>

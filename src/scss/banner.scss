@@ -1,0 +1,68 @@
+.banner {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../images/banner.jpg) no-repeat center / cover;
+
+  &-info {
+    max-width: 780px;
+
+    .lines {
+      width: 67px;
+      height: 27px;
+
+      @media screen and (max-width: 600px) {
+        width: 34px;
+      }
+      span {
+        height: 7px;
+
+        @media screen and (max-width: 600px) {
+          height: 4px;
+        }
+
+        &:first-child {
+          margin-bottom: 11px;
+          width: 41px;
+
+          @media screen and (max-width: 600px) {
+            width: 21px;
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+    h1 {
+      font-weight: 700;
+      margin: 34px 0;
+      font-size: 40px;
+      letter-spacing: -0.01em;
+
+      @media screen and (max-width: 900px) {
+        width: 80%;
+        font-size: 36px;
+      }
+
+      @media screen and (max-width: 600px) {
+        font-size: 20px;
+        width: 70%;
+        margin: 14px 0;
+      }
+
+      span {
+        color: #03add6;
+      }
+    }
+
+    h4 {
+      font-size: 24px;
+      margin-bottom: 40px;
+
+      @media screen and (max-width: 600px) {
+        font-size: 16px;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

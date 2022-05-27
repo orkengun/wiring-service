@@ -1,0 +1,97 @@
+section(data-aos="fade-up").services#services 
+  .container
+    include lines 
+    h2.section-title 
+      span К
+      |акие услуги мы предоставляем
+    .services-fl
+      .images 
+        img(src="images/serv1.jpg", alt="img", data-img="serv1" class="active")
+        img(src="images/serv2.jpg", alt="img", data-img="serv2")
+        img(src="images/serv3.jpg", alt="img", data-img="serv3")
+        img(src="images/serv4.jpg", alt="img", data-img="serv4")
+        img(src="images/serv5.jpg", alt="img", data-img="serv5") 
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default active">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" data-value="serv1">Консультации по подключению к системам энергоснабжения</a>
+              img(src="images/down-arrow.svg", alt="arrow")
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body"> 
+              img(src="images/serv1.jpg", alt="img")
+              ul 
+                li оказываем помощь в получении технических условий в АЖК;
+                li рассчитываем стоимость работ и консультируем на всех этапах;
+                li  помогаем в подборе нужного оборудования.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapse2" data-value="serv2">Проектирование систем энергоснабжения</a>
+              img(src="images/down-arrow.svg", alt="arrow")
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              img(src="images/serv2.jpg", alt="img")
+              p Проектируем системы в соответствие с требованиями государственных организаций и вашими пожеланиями. У нас работают инженеры со стажем работы от 7 лет. 
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapse3" data-value="serv3">Подбор оборудования</a>
+              img(src="images/down-arrow.svg", alt="arrow")
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+              img(src="images/serv3.jpg", alt="img")
+              p Помогаем с поставками всего необходимого оборудования напрямую от производителя. Смотреть список
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapse4" data-value="serv4">Монтаж и наладка</a>
+              img(src="images/down-arrow.svg", alt="arrow")
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">
+              img(src="images/serv4.jpg", alt="img")
+              ul 
+               li монтаж трансформаторных подстанций;
+               li пуско-наладочные работы;
+               li прокладка и реконструкция кабелей;
+               li сборка и установка КЯ, ГРЩ, ВРУ, ЩО;
+               li прочее.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapse5" data-value="serv5">Проведение лабораторных испытаний</a>
+              img(src="images/down-arrow.svg", alt="arrow")
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">
+              img(src="images/serv5.jpg", alt="img")
+              ul 
+                li Профилактические испытания электроустановок;
+                li Получение акта экспертного обследования и заключения электроустановок;
+                li Электротехническая лаборатория;
+                li Испытания кабельных и воздушных линий 10 кВ.
+            </div>
+          </div>
+        </div>
+      </div>   

@@ -1,0 +1,152 @@
+.header {
+  background: rgba(52, 52, 52, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 24px 0;
+  z-index: 2;
+
+  .toggle-btn {
+    display: none;
+
+    @media screen and (max-width: 1200px) {
+      display: block;
+      position: relative;
+      width: 36px;
+      height: 28px;
+      z-index: 5;
+
+      &.active {
+        span {
+          &.two {
+            opacity: 0;
+          }
+          &.one {
+            transform: rotate(42deg);
+            width: 100%;
+            top: 12px;
+          }
+          &.three {
+            transform: rotate(-42deg);
+            bottom: 12px;
+          }
+        }
+      }
+
+      span {
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: #fff;
+        border-radius: 3px;
+        right: 0;
+        transition: 0.3s;
+
+        &.one {
+          top: 0;
+          width: 20px;
+        }
+        &.two {
+          top: 12px;
+          width: 29px;
+        }
+        &.three {
+          bottom: 0;
+        }
+      }
+    }
+  }
+
+  .mob-menu {
+    display: none;
+
+    @media screen and (max-width: 1200px) {
+      display: block;
+      position: fixed;
+      top: -120%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      height: 100%;
+      background: rgba(52, 52, 52, 0.9);
+      transition: 0.5s;
+      padding-top: 20%;
+
+      &.active {
+        top: 93px;
+      }
+    }
+
+    .menu {
+      font-weight: 700;
+
+      li {
+        margin-bottom: 20px;
+      }
+    }
+
+    .header-contacts {
+      display: flex !important;
+      flex-direction: column;
+      margin-top: 30px;
+
+      a {
+        margin: 0 0 20px !important;
+      }
+    }
+
+    .menu,
+    .header-contacts {
+      @media screen and (max-width: 1200px) {
+        display: block;
+      }
+    }
+  }
+
+  &-fl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+      display: flex;
+
+      @media screen and (max-width: 1200px) {
+        display: none;
+      }
+
+      li {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0 34px;
+        display: block;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+
+          &:hover {
+            color: #00c7f7;
+          }
+        }
+      }
+    }
+
+    .header-contacts {
+      @media screen and (max-width: 1200px) {
+        display: none;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        &:first-child {
+          margin-right: 68px;
+        }
+
+        span {
+          color: #00c7f7;
+        }
+      }
+    }
+  }
+}

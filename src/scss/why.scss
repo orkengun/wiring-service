@@ -1,0 +1,79 @@
+.why {
+  background: url(../images/why.jpg) no-repeat center bottom / cover;
+  color: #fff;
+  padding: 75px 0;
+  .container {
+    width: 1350px;
+
+    @media screen and (max-width: 1350px) {
+      width: 100%;
+    }
+  }
+  &-block {
+    padding: 75px 100px 25px;
+    background: rgba(52, 52, 52, 0.9);
+    border-radius: 30px;
+
+    @media screen and (max-width: 1350px) {
+      padding: 50px 50px 25px;
+    }
+
+    @media screen and (max-width: 600px) {
+      padding: 50px 17px 25px;
+    }
+
+    .section-title {
+      color: #fff;
+    }
+
+    &-fl {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .item {
+        width: 47%;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 50px;
+
+        @media screen and (max-width: 1350px) {
+          width: 100%;
+        }
+
+        img {
+          margin-right: 35px;
+          max-width: 41px;
+          height: auto;
+          flex-shrink: 0;
+          max-height: 32px;
+
+          @media screen and (max-width: 600px) {
+            margin-right: 15px;
+          }
+        }
+
+        h4 {
+          letter-spacing: -0.04em;
+          text-transform: uppercase;
+          font-size: 20px;
+          font-weight: 700;
+          margin-bottom: 15px;
+
+          @media screen and (max-width: 600px) {
+            font-size: 14px;
+          }
+        }
+
+        p {
+          letter-spacing: -0.04em;
+          line-height: 162%;
+
+          @media screen and (max-width: 600px) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

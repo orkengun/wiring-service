@@ -1,0 +1,45 @@
+section(data-aos="fade-up").contacts#contacts 
+  .container 
+    include lines 
+    h2.section-title 
+      span К
+      |онтакты для связи
+    .contacts-fl 
+      .info 
+        <div id="map" style="width:100%; height:100%"></div>
+        .info-fl  
+          .item 
+           img(src="images/adress.svg", alt="img") 
+           p 
+            span ул. Жастар 21а
+            |, с. Кыргауылды, Карасайский район, Алматинская область, 040924
+          .item 
+            img(src="images/phone.svg", alt="img")
+            a(href="tel:+7 (771) 888 8992") 
+              span +7 (771) 
+              | 888 8992
+          .item 
+            img(src="images/email.svg", alt="img")
+            a(href="mailto::info@e-montazh.kz") 
+              span info
+              | @e-montazh.kz    
+      <form class="contacts__form telegram-form" id="form1">
+        h3.upper У вас остались вопросы? 
+        h4 Задайте интересующий вопрос, заполнив форму!
+        <div class="form-fl">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Имя*" required />
+          </div>
+          <div class="form-group">
+            <input id="phone" class="phone" type="text" inputmode="numeric" name="phone" placeholder="Номер телефона*" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="question" id="textarea"></textarea>
+        </div>
+        <div class="form-fl">
+          button.btn.btn-blue отправить
+            img(src="images/arrow.svg", alt="arrow")
+            span.clip
+        </div>
+      </form>  

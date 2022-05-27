@@ -1,1 +1,87 @@
 footer.footer 
+  .container 
+    .footer-fl
+      .item 
+        a(href="#", data-toggle="modal", data-target="#myModal-3").link Политика конфиденциальности
+        .socials  
+          a(href="#" target="_blank")
+            img(src="images/telega.svg", alt="svg")
+          a(href="https://api.whatsapp.com/send?phone=77718888992&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5,%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank")
+            img(src="images/whats.svg", alt="svg")
+      .item 
+        a(href="/").logo
+          img(src="images/logo.svg", alt="logo")
+        p ТОО “Электромонтаж сервис”.
+          br 
+          |Все права защищены 2022     
+      .item 
+        a(href="#", data-toggle="modal", data-target="#myModal").btn.btn-blue связаться с нами
+          img(src="images/arrow.svg", alt="arrow")
+          span.clip
+        a(href="#", target="_blank").link by Tip-Top Agency           
+
+<div class="modal fade" id="myModal-3" role="dialog">
+  <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal">
+          img(src="images/x.svg", alt="x")
+        </button>
+        include lines
+        <h3 class="upper section-title"><span>П</span>олитика конфиденциальности</h3>
+        <p>Соблюдение Вашей конфиденциальности важно для нашей компании. Поэтому мы разработали Политику Конфиденциальности, которая  описывает, как используется и хранится Ваша информация. Пожалуйста, ознакомьтесь и сообщите нам, если у Вас возникнут какие-либо вопросы.
+        </p>
+        <p><span>Сбор и использование персональной информации</span><br>Под персональной информацией понимаются данные, которые могут быть использованы для идентификации определенного лица либо связи с ним. От Вас может быть запрошено предоставление персональной информации в любой момент, когда Вы связываетесь с нами.
+        </p>
+        <p><span>Какую персональную информацию мы собираем</span><br>Когда Вы  оставляете заявку на сайте, мы можем собирать различную информацию,  включая Ваше имя, номер телефона, адрес электронной почты и т.д.
+        </p>
+        <p> <span>Как мы используем Вашу персональную информацию
+        </span><br>Персональная информация позволяет нам сообщать об уникальных предложениях, акциях и других мероприятиях и ближайших событиях. Время от времени мы можем использовать Вашу персональную информацию для отправки важных уведомлений и сообщений. Мы также можем  использовать персональную информацию для внутренних целей: проведения аудита, анализа данных и различных исследований в целях улучшения услуг. Если Вы принимаете участие в розыгрыше призов или конкурсе, мы можем использовать информацию для управления такими программами.
+        </p>
+        <p><span>Раскрытие информации третьим лицам</span><br>Мы не раскрываем полученную от Вас информацию третьим лицам.
+        </p>
+        <p><span>Исключения</span><br>В соответствии с законом, судебным порядком, в судебном разбирательстве и/или на основании публичных запросов или запросов от государственных органов на территории РК. Мы также можем раскрывать информацию о Вас, если мы определим, что такое раскрытие необходимо или уместно в целях безопасности, поддержания правопорядка или иных общественно важных случаях. В случае реорганизации, слияния или продажи мы можем передать собираемую нами лицу – правопреемнику.
+        </p>
+        <p><span>Защита персональной информации</span><br>Мы предпринимаем меры предосторожности, включая административные, технические и физические для защиты Вашей персональной информации от утраты, кражи  и недобросовестного использования, а также от несанкционированного доступа, раскрытия, изменения и уничтожения.
+        </p>
+        <p><span>Соблюдение Вашей конфиденциальности на уровне компании</span><br>Чтобы убедиться, что Ваша персональная информация находится в  безопасности, мы доводим нормы соблюдения конфиденциальности и безопасности до наших сотрудников и строго следим за исполнением мер соблюдения конфиденциальности.
+        </p>
+      </div>
+  </div>
+</div>
+
+.modal.fade#myModal(role="dialog")
+  .modal-dialog
+    .modal-content  
+      button(button, data-dismiss="modal").close 
+        img(src="images/x.svg", alt="x")
+      include lines
+      <h3 class="upper section-title"><span>О</span>ставьте заявку</h3>  
+      h4.text-center Мы вам перезвоним в течение
+        br 
+        | 20 минут!
+      <form  class="contacts__form telegram-form" id="form2">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Имя*" required />
+          </div>
+          <div class="form-group">
+            <input id="phone2" class="phone" type="text" inputmode="numeric" name="phone" placeholder="Номер телефона*" required />
+          </div>
+          .form-group 
+            label#allow 
+              <input type="checkbox" id="allow" name="Согласие" checked required />
+              span даю согласие на обработку данных
+              <span class="checkmark"></span>
+          button.btn.btn-blue Оставить заявку
+            img(src="images/arrow.svg", alt="arrow")
+            span.clip
+      </form>    
+
+
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js") 
+    script(src="https://unpkg.com/aos@2.3.1/dist/aos.js") 
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js") 
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer) 
+    script(src="https://unpkg.com/swiper@8/swiper-bundle.min.js") 
+    script(src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full") 
+    script(src="js/app.min.js")

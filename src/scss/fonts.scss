@@ -1,18 +1,32 @@
 @font-face {
-	font-family: 'Als Sirius';
-	font-style: normal;
-	font-weight: 900;
-	font-display: swap;
-	src: local(''),
-	url("../font/ALS_Sirius_Black.woff2") format("woff2"),
-	url("../font/ALS_Sirius_Black.woff") format("woff");
+  font-family: 'Gothampro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local(''), url('../fonts/GothamProBlack.woff2') format('woff2'),
+    url('../fonts/GothamProBlack.woff') format('woff');
 }
 @font-face {
-	font-family: 'Als Sirius';
-	font-style: normal;
-	font-weight: 500;
-	font-display: swap;
-	src: local(''),
-	url("../font/ALS_Sirius_Medium.woff2") format("woff2"),
-	url("../font/ALS_Sirius_Medium.woff") format("woff");
+  font-family: 'Gothampro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''), url('../fonts/GothamProBold.woff2') format('woff2'),
+    url('../fonts/GothamProBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gothampro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''), url('../fonts/GothamProMedium.woff2') format('woff2'),
+    url('../fonts/GothamProMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gothampro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''), url('../fonts/GothamProRegular.woff2') format('woff2'),
+    url('../fonts/GothamProRegular.woff') format('woff');
 }
